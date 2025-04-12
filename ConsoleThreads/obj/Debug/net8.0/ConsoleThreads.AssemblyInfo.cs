@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConsoleThreads")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+314ae6774052eefa2758b7780260501b9d3ef77b")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConsoleThreads")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConsoleThreads")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
