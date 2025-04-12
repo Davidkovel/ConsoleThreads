@@ -90,7 +90,7 @@ public partial class MainWindow : Window
                 $"Process Name: {info.Name}\n" +
                 $"PID: {info.ProcessId}\n" +
                 $"Parent PID: {info.ParentProcessId}\n" +
-                $"Memory Usage: {info.MemoryUsageMB}MB\n";
+                $"Memory / Usage: {info.MemoryUsageMB}MB\n";
         }
     }
 }

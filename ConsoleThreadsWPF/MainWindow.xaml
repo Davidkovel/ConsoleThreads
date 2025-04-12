@@ -5,9 +5,8 @@
         Background="Black">
     <Grid>
         <Grid.RowDefinitions>
-            <!-- Header Section -->
             <RowDefinition Height="60"/>
-            <!-- Main Content Section -->
+            <!-- Main Content -->
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
@@ -17,17 +16,15 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
-        <!-- Header -->
         <Border Grid.Row="0" Grid.ColumnSpan="2" Background="YellowGreen" Padding="10">
             <TextBlock Text="Process Explorer" Foreground="White" FontSize="24" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center"/>
         </Border>
 
-        <!-- TreeView control to display processes -->
         <Border Grid.Row="1" Grid.Column="0" Margin="10" Padding="10" Background="White" BorderBrush="#D0D0D0" BorderThickness="1">
             <TreeView Name="ProcessTreeView" FontSize="14"
                       SelectedItemChanged="ProcessTreeView_SelectedItemChanged">
                 <TreeView.Resources>
-                    <!-- Style for TreeView Items -->
+                    <!-- TreeView Items -->
                     <Style TargetType="TreeViewItem">
                         <Setter Property="FontSize" Value="14"/>
                         <Setter Property="Padding" Value="5"/>
@@ -37,7 +34,6 @@
             </TreeView>
         </Border>
 
-        <!-- TextBox to display details about the selected process -->
         <Border Grid.Row="1" Grid.Column="1" Margin="10" Padding="10" Background="White" BorderBrush="#D0D0D0" BorderThickness="1">
             <TextBox Name="ProcessDetailsTextBox"
                      FontSize="14"
